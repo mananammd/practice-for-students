@@ -10,9 +10,9 @@ void printSimple(int n) {
                 continue;
             }
         }
-    if (k == 0) {
-        printf("%d ", i);
-    }
+        if (k == 0) {
+            printf("%d ", i);
+        }
     k = 0;    
     }
 }
